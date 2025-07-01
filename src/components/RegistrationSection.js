@@ -12,6 +12,10 @@ const RegistrationSection = () => {
           key startup details—pitch deck, team info, traction—and choose your visibility plan.
         </p>
         
+        <button className="cta-button" onClick={() => window.location.assign("https://growth91.com/FutureUnicorn")}>
+          Get Started Now - Join Future Unicorn
+        </button>
+        
         <div className="steps-container">
           <div className="step">
             <div className="step-icon blue">
