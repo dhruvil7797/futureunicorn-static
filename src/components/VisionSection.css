@@ -82,6 +82,10 @@
   margin-bottom: 0;
 }
 
+.about-grid .content-text{
+  text-align: justify;
+}
+
 @media (max-width: 1024px) {
   .vision-content {
     max-width: 800px;
@@ -128,7 +132,6 @@
   .content-text {
     font-size: 1rem;
     margin-bottom: 1rem;
-    text-align: center;
   }
 }
 
