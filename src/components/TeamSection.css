@@ -15,16 +15,9 @@
 
 .team-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
   align-items: stretch;
-}
-
-.team-column {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  height: 100%;
 }
 
 .team-category {
@@ -33,16 +26,12 @@
   padding: 2rem;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   border: 1px solid #e2e8f0;
-  flex: 1;
-}
-
-.team-category.founding-members,
-.team-category.core-members {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .team-category.why-choose {
-  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -68,36 +57,44 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  flex: 1;
+  justify-content: center;
 }
 
 .team-member {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-radius: 8px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
 }
 
 .member-avatar {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   flex-shrink: 0;
   object-fit: cover;
-  border: 2px solid #e2e8f0;
+  border: 3px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .member-info {
-  flex: 1;
+  margin-top: 1rem;
 }
 
 .member-name {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #1e293b;
-  margin: 0 0 0.25rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .member-role {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: #64748b;
   margin: 0;
   line-height: 1.4;
@@ -156,12 +153,8 @@
     gap: 2rem;
   }
   
-  .team-column {
-    gap: 2rem;
-  }
-  
   .team-section {
-    padding: 4rem 0;
+    padding: 3rem 0;
   }
 }
 
@@ -184,9 +177,8 @@
   }
   
   .member-avatar {
-    width: 45px;
-    height: 45px;
-    font-size: 1rem;
+    width: 65px;
+    height: 65px;
   }
   
   .member-name {
@@ -232,8 +224,11 @@
   }
   
   .member-avatar {
-    width: 40px;
-    height: 40px;
-    font-size: 0.9rem;
+    width: 55px;
+    height: 55px;
+  }
+  
+  .team-member {
+    gap: 1rem;
   }
 }
