@@ -36,19 +36,19 @@ const TeamSection = () => {
               <div className="why-item highlight">
                 <div className="why-highlight">
                   <span className="why-label">Backed 88+ startups</span>
-                  <span className="why-description">with consistent success stories.</span>
+                  <span className="why-description">With consistent success stories.</span>
                 </div>
               </div>
               <div className="why-item highlight">
                 <div className="why-highlight">
                   <span className="why-label">2,000+ investors</span>
-                  <span className="why-description">active on Future Unicorn Platform</span>
+                  <span className="why-description">Active on Future Unicorn Platform</span>
                 </div>
               </div>
               <div className="why-item highlight-green">
                 <div className="why-highlight">
                   <span className="why-label">We have our SEBI approved AIF CAT-1</span>
-                  <span className="why-description">angel fund, to empower early stage startups.</span>
+                  <span className="why-description">Angel fund, to empower early stage startups.</span>
                 </div>
               </div>
             </div>
